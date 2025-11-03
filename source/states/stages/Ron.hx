@@ -10,7 +10,6 @@ class Ron extends BaseStage
 	override function create()
 	{
 				defaultCamZoom = 0.9;
-				curStage = 'ron';
 				var bg:FlxSprite = new FlxSprite(-100,10).loadGraphic(Paths.image('bob/happyRon_sky'));
 				bg.updateHitbox();
 				bg.scale.x = 1.2;
