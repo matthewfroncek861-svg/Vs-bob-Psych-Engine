@@ -413,14 +413,14 @@ class Ron extends BaseStage
 
 	function initDoof()
 	{
-		var file:String = Paths.txt('run/DumbDialogPhloxMade'); //Checks for vanilla/Senpai dialogue
+		var file:String = Paths.txt('ron/ronDialogue'); //Checks for vanilla/Senpai dialogue
 		#if MODS_ALLOWED
 		if (!FileSystem.exists(file))
 		#else
 		if (!OpenFlAssets.exists(file))
 		#end
 		{
-			file = Paths.txt('run/DumbDialogPhloxMade');
+			file = Paths.txt('ron/ronDialogue');
 		}
 
 		#if MODS_ALLOWED
