@@ -100,11 +100,6 @@ class Slaught extends BaseStage
 		});
 	}
 
-	override function stepHit()
-	{
-		// Code here
-	}
-
 	override function beatHit()
 	{
 		super.beatHit();
