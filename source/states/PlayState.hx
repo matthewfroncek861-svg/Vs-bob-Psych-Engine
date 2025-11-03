@@ -393,6 +393,7 @@ class PlayState extends MusicBeatState
 			case 'withered': new Withered();
 			case 'hellstage': new HellStage();
 			case 'ron': new Ron();
+			case 'trouble': new Trouble();
 			case 'slaught': new Slaught();
 		}
 		if(isPixelStage) introSoundsSuffix = '-pixel';
