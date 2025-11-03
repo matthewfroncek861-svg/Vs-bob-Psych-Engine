@@ -412,14 +412,14 @@ class Slaught extends BaseStage
 
 	function initDoof()
 	{
-		var file:String = Paths.txt('run/DumbDialogPhloxMade'); //Checks for vanilla/Senpai dialogue
+		var file:String = Paths.txt('onslaught/help'); //Checks for vanilla/Senpai dialogue
 		#if MODS_ALLOWED
 		if (!FileSystem.exists(file))
 		#else
 		if (!OpenFlAssets.exists(file))
 		#end
 		{
-			file = Paths.txt('run/DumbDialogPhloxMade');
+			file = Paths.txt('onslaught/help');
 		}
 
 		#if MODS_ALLOWED
